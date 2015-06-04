@@ -13,6 +13,7 @@ public class RegisterSteps {
 
 	@When("^he enters a his name (.*) and valid email address (.*)$")
 	public void he_enters_a_his_name_Adviser_and_valid_email_address_kalpana_vonteri_gmail_com(String name, String email) throws Throwable {
+		System.out.println("before validation");
 		validateDetails(email);
 	}
 
